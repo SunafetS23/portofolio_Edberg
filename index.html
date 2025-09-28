@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edberg - Computer Science</title>
+    <meta name="description" content="The official homepage for my awesome website, featuring great products and services.">
+    <meta property="og:title" content="Awesome Site: Official Home">
+    <meta property="og:description" content="Check out the best stuff on the web!">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">Edberg</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Indicator Dots -->
+    <div class="section-indicator">
+        <div class="section-dot" data-section="home" title="Home"></div>
+        <div class="section-dot" data-section="about" title="About"></div>
+        <div class="section-dot" data-section="projects" title="Projects"></div>
+        <div class="section-dot" data-section="events" title="Events"></div>
+        <div class="section-dot" data-section="skills" title="Skills"></div>
+        <div class="section-dot" data-section="contact" title="Contact"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="section hero">
+            <div>
+                <img src="assets/profile-pic.jpg" alt="Pro-Pic" class="hero-image">
+            </div>
+            <div class="hero-content">
+                <h1>Edberg</h1>
+                <p class="hero-subtitle">Computer Science - 2702245702</p>
+                <p class="hero-description">
+                    HELLO! I am a computer science Student at Binus University with a deep interest in Software Development and designing UI/UX.
+                    My study focus on designing UI/UX, software develop, and web develop. This portfolio stands as evidence of my commitment to 
+                    make a digital product such as a website or application. 
+                </p>
+                <div class="hero-links">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hero-link">
+                        <i data-lucide="linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:23sedberg@gmail.com" class="hero-link">
+                        <i data-lucide="mail"></i>
+                        <span>23sedberg@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <h2 class="section-title">About</h2>
+            </div>
+            <div style="margin-bottom: 2rem;">
+                <p style="margin-bottom: 1rem; color: var(--muted-foreground); line-height: 1.7; text-align: justify;">
+                    I'm a Computer Science student obsessed with crafting seamless user interfaces (UI) and delightful user experiences (UX).
+                    My tech journey is fueled by a passion for pixel-perfect design and the core belief that clean, optimized code is the 
+                    essential foundation for beautiful digital products.
+                </p>
+                <p style="margin-bottom: 1rem; color: var(--muted-foreground); line-height: 1.7; text-align: justify;">
+                    Currently in my third year at University, I specialize in front-end architecture, user-centric design principles, 
+                    and interactive prototyping. I thrive on projects that challenge me to merge aesthetic innovation with high-performance, 
+                    maintainable code. When I step away from the IDE, I'm usually diving into the latest design trends, contributing to open-source 
+                    interfaces, or sketching new digital concepts.
+                </p>
+            </div>
+            <div class="education">
+                <h3 style="font-size: 1.125rem; font-weight: 500; margin-bottom: 1rem;">Education</h3>
+                <div class="education-item">
+                    <div>
+                        <p class="education-title">Bachelor of Computer Science</p>
+                        <p class="education-school">Bina Nusantara University</p>
+                    </div>
+                    <p class="education-year">2023 — 2027</p>
+                </div>
+                <p class="education-courses">
+                    Relevant Coursework: Data Structures, Algorithms, Software Engineering, Database Systems, Web Development, Human and Computer Interaction, etc
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section-container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+            </div>
+
+            <div class="carousel-container">
+                <button class="carousel-arrow left-arrow" aria-label="Previous Project">&lt;</button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track">
+                        
+                        <!-- Project Card 1 (Active) -->
+                        <div class="project-card" data-project-index="0">
+                            <div class="card-header">
+                                <h3 class="project-title">Comparative Study of Pre-Trained Models for BISINDO Sign Language Recognition
+                                    <span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2025</span></h3>
+                                <div class="project-links">
+                                    <a href="https://docs.google.com/document/d/1Wn5-boAS2AE2w3dDZtEkLRGVfg0h7K9V/edit?usp=sharing&ouid=104515886095957695066&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">This study aims to significantly advance digital accessibility for the Indonesian deaf community.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 2 -->
+                        <div class="project-card" data-project-index="1">
+                            <div class="card-header">
+                                <h3 class="project-title">Multimedia Foundation Programming<span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2025</span></h3>
+                                <div class="project-links">
+                                    <a href="https://docs.google.com/document/d/1brkChDaaL3Kz8cfRS2AR_2bPktBGB71Qf5ObsjjHuRo/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Making use of a multimedia components, in this case we make a video game.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">RPG maker</span>
+                                <span class="tech-tag">Word</span>
+                            </div>
+                        </div>
+
+                        <!-- Project Card 3 -->
+                        <div class="project-card" data-project-index="2">
+                            <div class="card-header">
+                                <h3 class="project-title">Game Design Document: DELTA QUEST <span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2025</span></h3>
+                                <div class="project-links">
+                                    <a href="https://docs.google.com/document/d/1Efatt0DO2J3_zMMRYAzHkGGC0WOvh8PVW4Dw4AyDFP0/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Making a blueprint for a video game development project.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Google Document</span>
+                            </div>
+                        </div>
+
+                        <!-- pc4 -->
+                        <div class="project-card" data-project-index="3">
+                            <div class="card-header">
+                                <h3 class="project-title">User Experience Project : Orpheus<span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2025</span></h3>
+                                <div class="project-links">
+                                    <a href="https://docs.google.com/document/d/1tkTkxSfnqNhSoWjpGTFPNZUoYDHbrhxXloGjm_Uhmss/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Designing a website for studying user experience.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Axure</span>
+                            </div>
+                        </div>
+
+                         <!-- pc5 -->
+                        <div class="project-card" data-project-index="4">
+                            <div class="card-header">
+                                <h3 class="project-title">Software Engineer: LearnBuddy<span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2024</span></h3>
+                                <div class="project-links">
+                                    <a href="https://docs.google.com/document/d/12X29XgQ1iIXZSU2ygEy5hBWyKavXLYoj0AdGKZspNQE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Designing and develop a website for studying user experience</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Figma</span>
+                            </div>
+                        </div>
+
+                         <!-- pc6 -->
+                        <div class="project-card" data-project-index="5">
+                            <div class="card-header">
+                                <h3 class="project-title">Pneumonia Detection using Artificial Inteligent<span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2024</span></h3>
+                                <div class="project-links">
+                                    <a href="https://docs.google.com/document/d/12X29XgQ1iIXZSU2ygEy5hBWyKavXLYoj0AdGKZspNQE/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Making an AI for Pneumonia detection by sending X-ray photo.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+
+                        <!-- pc7 -->
+                        <div class="project-card" data-project-index="6">
+                            <div class="card-header">
+                                <h3 class="project-title">Human and Computer Interaction Project<span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2024</span></h3>
+                                <div class="project-links">
+                                    <a href="https://docs.google.com/document/d/1yB8EVawJu2v4HZ5DxzZ-G6hre1Qyehd-NijzNflbo-U/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Making a blueprint that design for studying human and computer interaction.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Figma</span>
+                            </div>
+                        </div>
+
+                        <!-- pc8 -->
+                        <div class="project-card" data-project-index="7">
+                            <div class="card-header">
+                                <h3 class="project-title">Entrepreneurship: Ideation  (MEOW RICE)<span style="font-size: 0.8em; font-weight: 400; color: var(--muted-foreground);">2023</span></h3>
+                                <div class="project-links">
+                                    <a href="https://www.canva.com/design/DAGBcuIwiyQ/CUGRyNGFOU1ftT1BbaoJXw/edit?utm_content=DAGBcuIwiyQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Live Project">
+                                        <i data-lucide="external-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">Developing some innovative business ideas that solve a problem or capitalize on an opportunity.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Canva</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-arrow right-arrow" aria-label="Next Project">&gt;</button>
+            </div>
+
+            <div class="carousel-nav-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+                <span class="dot" data-index="6"></span>
+                <span class="dot" data-index="7"></span>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Event</h2>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-arrow left-arrow" aria-label="Previous Event">&lt;</button>
+                <div class="carousel-track-container">
+                    <div class="carousel-track" id="events-container">
+                        
+                        <div class="card event-item">
+                            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                                <h3 class="project-title">Programming competitions INC</h3>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <p class="project-description">Team Member</p>
+                            <div class="task-list">
+                                <h4>Key Tasks:</h4>
+                                <ul>
+                                    <li>Completed programming question from the competition</li>
+                                    <li>Coordinated with team members to answer the question</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card event-item">
+                            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                                <h3 class="project-title">Alam Sutera League / AS League</h3>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <p class="project-description">Member of Publication and Documentation Division</p>
+                            <div class="task-list">
+                                <h4>Key Tasks:</h4>
+                                <ul>
+                                    <li>Documented the whole tournament matches and ceremonies</li>
+                                    <li>Coordinated with photography team</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card event-item" data-extra="true">
+                            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                                <h3 class="project-title">LDK-A Binus Badminton</h3>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <p class="project-description">Member of Registration Division</p>
+                            <div class="task-list">
+                                <h4>Key Tasks:</h4>
+                                <ul>
+                                    <li>Setting up, maintaining, and managing the entire registration process</li>
+                                    <li>Processing registrations, verifying required documents</li>
+                                    <li>Collecting, organizing, and ensuring the accuracy and completeness of the participant database.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card event-item" data-extra="true">
+                            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                                <h3 class="project-title">Volunteering on Character Building: Pancasila</h3>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <p class="project-description">team Member</p>
+                            <div class="task-list">
+                                <h4>Key Tasks:</h4>
+                                <ul>
+                                    <li>Helping orphan by giving them lesson about tolerance</li>
+                                    <li>Helping orphan by giving them snacks</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card event-item" data-extra="true">
+                            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                                <h3 class="project-title">Volunteering on Character Building: Kewarganegaraan</h3>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <p class="project-description">team Member</p>
+                            <div class="task-list">
+                                <h4>Key Tasks:</h4>
+                                <ul>
+                                    <li>Interview a young entrepreneur about modern economy and business</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card event-item" data-extra="true">
+                            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+                                <h3 class="project-title">Volunteering on Character Building: Agama</h3>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <p class="project-description">team Member</p>
+                            <div class="task-list">
+                                <h4>Key Tasks:</h4>
+                                <ul>
+                                    <li>Interview a couple of primary school students about bullying</li>
+                                    <li>Research about the problem of bullying</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <button class="carousel-arrow right-arrow" aria-label="Next Event">&gt;</button>
+            </div>
+
+            <div class="carousel-nav-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="card">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <h3 style="font-size: 1.125rem; font-weight: 500;">Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i data-lucide="globe"></i>
+                        </div>
+                        <h3 style="font-size: 1.125rem; font-weight: 500;">Frontend</h3>
+                    </div>
+                    <div class="skill-tags">
+
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i data-lucide="wrench"></i>
+                        </div>
+                        <h3 style="font-size: 1.125rem; font-weight: 500;">Tools & Others</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Axure</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+                <p style="color: var(--muted-foreground); line-height: 1.7; text-align: justify;">
+                    I'm always interested in new opportunities and collaborations. Whether you have a project in mind, want to
+                    discuss technology, or just want to connect, feel free to reach out.
+                </p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i data-lucide="mail"></i>
+                </div>
+                23sedberg@gmail.com
+            </div>
+
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <i data-lucide="linkedin"></i>
+                </a>
+            </div>
+
+            <div class="footer">
+                <p>| made by Edberg | 2025 | Built with HTML, CSS, and JavaScript |</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
